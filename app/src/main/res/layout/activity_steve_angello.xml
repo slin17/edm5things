@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="edu.slincolgate.edm5things.SteveAngello">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/steve_angello_mini" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Artist: Steve Angello"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Genre: House, Electronica, Electro House"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Info: \n- Former member of Swedish House Mafia \n- Founder and owner of Size Records based in Stockholm, Sweden"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="After Swedish House Mafia, Steve Angello went solo and has been introducing distinct and amazing tracks to EDM world. In a festival-driven industry that EDM seems to have become, Steve Angello, along with Axwell and Ingrosso, has long been a stunning example of EDM producers embracing their own unique styles and traits, in opposition to making crowd-pleasing works. "
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Notable Work: Wasted Love (ft. Dougy), Remember (ft. The Presets)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Song Below: Remember (ft. The Presets) \nGenre: Electronica \nBPM: 126 \nKey: A# maj"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube_view_steve_angello"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+
+            <Button
+                android:id="@+id/back_button_steve_angello"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="left"
+
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textColor="#1976D2" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+    <!--        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:alpha="0.4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shm_gh" />
+
+
+                android:onClick="backButton"-->

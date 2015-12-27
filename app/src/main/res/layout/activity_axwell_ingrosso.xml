@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="edu.slincolgate.edm5things.AxwellIngrosso">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ax_ing_g" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Artist: Axwell ^ Ingrosso"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Genre: Progressive House, Electro House"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Info: \n a Swedish electronic musical duo consisting of former Swedish House Mafia members Axwell and Sebastian Ingrosso. \n- despite the absence of Steve Angello, the duo has been releasing great tracks with their signature styles and characteristics"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Still &quot;the faces of mainstream Progressive House music&quot; even after Swedish House Mafia. Unlike most popular EDM songs that intend to please crowds, the works of Axwell ^ Ingrosso present their genuine tastes and unique styles."
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Notable Work: Something New, This Time (ft. Pusha T.)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Song Below: This Time (Lyric Video) \nGenre: Electro House \nBPM: 126 \nKey: G# min "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube_view_ax_ing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+
+            <Button
+                android:id="@+id/back_button_ax_ing"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="left"
+                android:onClick="backButton"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textColor="#1976D2" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+<!--<ImageView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:alpha="0.5"
+android:scaleType="centerCrop"
+android:src="@drawable/ax_ing_bkg2" />-->

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="edu.slincolgate.edm5things.AndrewBayer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/andrew_bayer_mini" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Artist: Andrew Bayer"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Genre: Trance, Progressive Trance, Progressive House"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Info: \n- an American DJ/Producer from Washington, DC \n- known for his unique progressive house productions on the Anjunadeep and Anjunabeats labels, also incorporating elements of idm, progressive breaks and other genres"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="His works are known for aggressive drop complemented by touching progressive trance chorus to deliver a deeply emotional journey through the entire song"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Notable Work: Once Lydian (Original Mix), Super Human (ft. Asbjørn)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Song Below: Once Lydian (Original Mix) \nGenre: Progressive Trance \nBPM: 128 \nKey: A maj"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube_view_andrew_bayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+
+            <Button
+                android:id="@+id/back_button_andrew_bayer"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="left"
+                android:onClick="backButton"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textColor="#1976D2" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
